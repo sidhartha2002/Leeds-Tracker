@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  min-width: 400px;
+  overflow: hidden;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#input-el {
+  width: 100%;
+  box-sizing: border-box; /* used becoz after making width 100% it overflows the text field + adding 2 X 10px padding left and padding right*/
+  padding: 10px;
+  border: 2px solid #51932b;
+  font-weight: bold;
+}
+
+#input-btn {
+  margin: 5px;
+  background-color: #51932b;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #51932b;
+  padding: 10px 20px;
+}
+#tab-btn {
+  margin: 5px;
+  margin-left: auto;
+  background-color: #51932b;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #51932b;
+  padding: 10px 20px;
+}
+#delete-btn {
+  margin: 5px;
+  margin-left: auto;
+  background-color: #ba1313;
+  color: #f1f4f0;
+  font-weight: bold;
+  border: 1px solid #ba1313;
+  padding: 10px 20px;
+}
+
+#tab-btn:active,
+#input-btn:active {
+  color: #51932b;
+  font-weight: bold;
+  background-color: white;
+}
+#delete-btn:active {
+  color: #ba1313;
+  background-color: white;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-top: 5px;
+}
+
+li a {
+  color: #51932b;
+}
